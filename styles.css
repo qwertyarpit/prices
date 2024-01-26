@@ -1,0 +1,115 @@
+/* *{
+    border: 3px solid red;
+} */
+
+.prices{
+  width: 90%;
+}
+
+.outersection{
+  display: flex;
+  justify-content: center;
+}
+
+
+h2{
+  border-bottom: 2px solid aqua;
+    /* background-color: aqua; */
+    display: flex;
+    color: aliceblue;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media (max-width:100px){
+  .volume{
+    display: none;
+  }
+}
+
+
+h2 span {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+  }
+  
+
+  /* .news {
+    
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+      margin: 0 auto;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+
+    font-family: 'Alkatra', cursive;
+    font-family: 'Itim', cursive;
+
+}
+
+.news a {
+    text-decoration: none;
+} */
+
+
+body{
+  background: black;
+
+}
+
+.names{
+  font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+
+
+.newsheading{
+  font-family: 'Carter One', cursive;
+  margin-top: 80px;
+  text-align: center;
+}
+
+
+
+.outersection {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Adjust the font size and spacing for responsive layout */
+.prices h2 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.names {
+  display: block;
+}
+
+/* Media queries for different screen sizes */
+@media screen and (max-width: 768px) {
+  .prices h2 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .prices h2 {
+    font-size: 10px;
+  }
+}
+
+
+
+
+
+
+
+  
